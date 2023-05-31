@@ -1,0 +1,15 @@
+{
+	"components": [
+		{
+			"id": "testPluginLocal",
+			"type": "VIEW_PLUGIN",
+			"allowMultipleInstances": true,
+			"name": "vendor.ext.podplugins.testPluginLocal.testPluginLocal",
+			"propertyEditor": "vendor.ext.podplugins.testPluginLocal.testPluginLocal.builder.PropertyEditor",
+			"i18n": "vendor.ext.podplugins.testPluginLocal.testPluginLocal.i18n.i18n",
+            "productionProcessEnabled": true,
+           "productionProcessTitle": "testPluginLocal",
+			"supportedPodTypes": ["WORK_CENTER","OPERATION","ORDER","OTHER","MONITOR"]
+		}   
+	]
+}
